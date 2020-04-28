@@ -1,0 +1,3 @@
+[submodule "libgui"]
+	path = libgui
+	url = https://github.com/wiiu-env/libgui.git
