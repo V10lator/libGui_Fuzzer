@@ -45,7 +45,7 @@ void initScreen()
 	font = new FreeTypeGX(getTTF(), getTTFsize(), true);
 	
 	GuiText::setPresets(24, glm::vec4(1.0f), tvWidth, ALIGN_TOP_LEFT);
-    GuiText::setPresetFont(font);
+	GuiText::setPresetFont(font);
 	
 	renderer->tvEnable(true);
 	renderer->drcEnable(true);

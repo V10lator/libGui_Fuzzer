@@ -138,9 +138,9 @@ $(OUTPUT).elf	:	$(OFILES)
 $(OFILES_SRC)	: $(HFILES_BIN)
 
 #-------------------------------------------------------------------------------
-debug: CFLAGS	+=	-g -Wall -O0 -fno-lto -fno-use-linker-plugin -DNUSSPLI_DEBUG
-debug: CXXFLAGS	+=	-g -Wall -O0 -fno-lto -fno-use-linker-plugin -DNUSSPLI_DEBUG
-debug: LDFLAGS	+=	-g -Wall -O0 -fno-lto -fno-use-linker-plugin -DNUSSPLI_DEBUG
+debug: CFLAGS	+=	-g -Wall -O0 -fno-lto -fno-use-linker-plugin
+debug: CXXFLAGS	+=	-g -Wall -O0 -fno-lto -fno-use-linker-plugin
+debug: LDFLAGS	+=	-g -Wall -O0 -fno-lto -fno-use-linker-plugin
 debug: all
 
 #-------------------------------------------------------------------------------
